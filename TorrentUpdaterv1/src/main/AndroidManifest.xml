@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="newair.org.torrentupdaterandfilter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:debuggable="true">
+
+        <activity
+                android:name=".Startup"
+                android:label="Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".MainWindow"
+                android:label="MainWindow">
+
+            <intent-filter>
+                <action android:name="newair.org.torrentupdaterandfilter.MAINWINDOW"/>
+
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".TorrentList"
+                android:label="TorrentList">
+            <intent-filter>
+                <action android:name="android.intent.action.TORRENTLIST"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="newair.org.torrentupdaterandfilter.NotificationReceiverActivity">
+
+        </activity>
+        <activity
+                android:name=".monitor.TorrentMonitor"
+                android:label="Enter Keywords of the torrent to minitor "/>
+        <activity
+                android:name=".monitor.TorrentMonitorList"
+                android:label="Moitoring List"/>
+
+        <service
+                android:name=".CreateNotificationActivity"
+
+                />
+        <service android:name=".monitor.MonitorNotification"/>
+
+
+    </application>
+
+</manifest>

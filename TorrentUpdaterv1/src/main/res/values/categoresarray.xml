@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="categories_array">
+            <item>@string/movies</item>
+            <item>@string/tvshows</item>
+            <item>@string/animation</item>
+            <item>@string/games</item>
+            <item>@string/audio</item>
+            <item>@string/ebooks</item>
+            <item>@string/other</item>
+        </string-array>
+    </resources>

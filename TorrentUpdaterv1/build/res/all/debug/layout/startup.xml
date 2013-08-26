@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100">
+    <ToggleButton
+            android:id="@+id/moviesbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/movies"
+            android:textOff="@string/movies"
+            android:onClick="onMoviesClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"
+            />
+    <ToggleButton
+            android:id="@+id/tvshowsbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/tvshows"
+            android:textOff="@string/tvshows"
+            android:onClick="onTvShowsClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"
+            />
+    <ToggleButton
+            android:id="@+id/gamesbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/games"
+            android:textOff="@string/games"
+            android:onClick="onGamesClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"/>
+    <ToggleButton
+            android:id="@+id/animationbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/animation"
+            android:textOff="@string/animation"
+            android:onClick="onAnimationClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"/>
+    <ToggleButton
+            android:id="@+id/ebooksbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/ebooks"
+            android:textOff="@string/ebooks"
+            android:onClick="onEbooksClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"/>
+    <ToggleButton
+            android:id="@+id/audiobutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/audio"
+            android:textOff="@string/audio"
+            android:onClick="onAudioClicked"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"/>
+    <ToggleButton
+            android:id="@+id/otherbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/other"
+            android:textOff="@string/other"
+            android:onClick="onOtherClicked"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_weight="@string/toggle_buttons_relative"
+            android:layout_marginLeft="@dimen/toggle_buttons_left_right_margin"
+            android:layout_marginRight="@dimen/toggle_buttons_left_right_margin"/>
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="@string/monitor_torrent_view_all"
+            android:stretchColumns="*">
+
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+
+                >
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/customtitle"
+                    android:id="@+id/customtitlebutton"
+                    android:onClick="onMonitorTorrentClicked"
+                    android:layout_column="0"
+
+                    />
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/viewall"
+                    android:id="@+id/viewallbutton"
+                    android:onClick="onViewAllClicked"
+                    android:layout_column="1"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exit"
+                    android:id="@+id/exitbutton"
+                    android:layout_column="1"
+                    android:onClick="onExitClicked"
+                    />
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories_array">
+        <item>@string/movies</item>
+        <item>@string/tvshows</item>
+        <item>@string/animation</item>
+        <item>@string/games</item>
+        <item>@string/audio</item>
+        <item>@string/ebooks</item>
+        <item>@string/other</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>@string/movies</item>
+        <item>@string/tvshows</item>
+        <item>@string/animation</item>
+        <item>@string/games</item>
+        <item>@string/audio</item>
+        <item>@string/ebooks</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toggle_buttons_left_right_margin">25dp</dimen>
+
+    <item name="view_monitoring_torrents" type="id">View Monitoring Torrents</item>
+
+    <string name="MonitorTorentLabel">Enter keywords with spaces</string>
+    <string name="action_settings">Settings</string>
+    <string name="animation">Animation</string>
+    <string name="app_name">Torrent-Update-UI</string>
+    <string name="audio">Audio</string>
+    <string name="custom_title_label">Enter Title to Monitor</string>
+    <string name="customtitle">Monitor Torrent</string>
+    <string name="ebooks">Ebooks</string>
+    <string name="exit">Exit</string>
+    <string name="games">Games</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="monitor_button">Monitor</string>
+    <string name="monitor_torrent_view_all">3</string>
+    <string name="movies">Movies</string>
+    <string name="other">Other</string>
+    <string name="toggle_buttons_relative">0.1</string>
+    <string name="tvshows">Tv Shows</string>
+    <string name="view_monitorng_torrents_list">View Monitoring Torrents</string>
+    <string name="viewall">View All</string>
+
+    <style name="AppBaseTheme" parent="android:Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

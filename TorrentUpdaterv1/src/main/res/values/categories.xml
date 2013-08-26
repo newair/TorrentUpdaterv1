@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="movies">Movies
+    </string>
+    <string name="tvshows" >Tv Shows
+    </string>
+    <string name="animation" >Animation
+    </string>
+    <string name="games" >Games
+    </string>
+    <string name="audio" >Audio
+    </string>
+    <string name="ebooks" >Ebooks
+    </string>
+    <string name="other" >Other
+    </string>
+</resources>
+
+
+
