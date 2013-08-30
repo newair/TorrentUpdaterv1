@@ -20,20 +20,22 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent">
 
-        <ImageButton
-                android:src="@drawable/movies"
+        <Button
+                android:drawableTop="@drawable/movies"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:text="@string/movies"
                 >
 
-        </ImageButton>
+        </Button>
 
-        <ImageButton
-                android:src="@drawable/tv"
+        <Button
+                android:drawableTop="@drawable/tv"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:text="@string/tvshows">
 
-        </ImageButton>
+        </Button>
     </TableRow>
 
 
@@ -43,20 +45,22 @@
             android:layout_width="match_parent">
 
 
-        <ImageButton
-                android:src="@drawable/games"
+        <Button
+                android:drawableTop="@drawable/games"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:text="@string/games"
                 >
 
-        </ImageButton>
+        </Button>
 
-        <ImageButton
-                android:src="@drawable/audio"
+        <Button
+                android:drawableTop="@drawable/audio"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:text="@string/audio">
 
-        </ImageButton>
+        </Button>
 
 
     </TableRow>
@@ -66,20 +70,22 @@
             android:id="@+id/tableRow3"
             android:layout_width="match_parent">
 
-        <ImageButton
-                android:src="@drawable/books"
+        <Button
+                android:drawableTop="@drawable/books"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:text="@string/ebooks"
                 >
 
-        </ImageButton>
+        </Button>
 
-        <ImageButton
-                android:src="@drawable/animation"
+        <Button
+                android:drawableTop="@drawable/animation"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:text="@string/animation">
 
-        </ImageButton>
+        </Button>
 
 
     </TableRow>
@@ -90,22 +96,27 @@
             android:layout_width="match_parent"
             android:gravity="center">
 
-
-        <ImageButton
-                android:src="@drawable/other"
+        <Button
+                android:drawableTop="@drawable/applications"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                >
+                android:text="@string/applications">
 
-        </ImageButton>
-
-        <ImageButton
-                android:src="@drawable/tv"
+        </Button>
+        <Button
+                android:drawableTop="@drawable/other"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:text="@string/other"                  >
 
-        </ImageButton>
+        </Button>
+
+
 
 
     </TableRow>
+
+
+
+
 </TableLayout>  

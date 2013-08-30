@@ -21,23 +21,35 @@ public final class R {
     }
     public static final class drawable {
         public static final int all_color=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int monitor_color=0x7f020002;
+        public static final int animation=0x7f020001;
+        public static final int audio=0x7f020002;
+        public static final int books=0x7f020003;
+        public static final int games=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int monitor_color=0x7f020006;
+        public static final int movies=0x7f020007;
+        public static final int other=0x7f020008;
+        public static final int tv=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f06000f;
+        public static final int action_settings=0x7f060014;
         public static final int animationbutton=0x7f060005;
         public static final int audiobutton=0x7f060007;
         public static final int button1=0x7f060001;
         public static final int customtitlebutton=0x7f060009;
         public static final int ebooksbutton=0x7f060006;
-        public static final int editText=0x7f06000d;
+        public static final int editText=0x7f060012;
         public static final int exitbutton=0x7f06000b;
         public static final int gamesbutton=0x7f060004;
-        public static final int label=0x7f06000e;
-        public static final int monitorTextView=0x7f06000c;
+        public static final int label=0x7f060013;
+        public static final int monitorTextView=0x7f060011;
         public static final int moviesbutton=0x7f060002;
         public static final int otherbutton=0x7f060008;
+        public static final int tableLayout1=0x7f06000c;
+        public static final int tableRow1=0x7f06000e;
+        public static final int tableRow2=0x7f06000f;
+        public static final int tableRow3=0x7f060010;
+        public static final int tableRow4=0x7f06000d;
         public static final int tvshowsbutton=0x7f060003;
         public static final int view_monitoring_torrents=0x7f060000;
         public static final int viewallbutton=0x7f06000a;
@@ -46,8 +58,9 @@ public final class R {
         public static final int activity_main=0x7f030000;
         public static final int mainwindow=0x7f030001;
         public static final int startup=0x7f030002;
-        public static final int torrent_monitor=0x7f030003;
-        public static final int torrentlist=0x7f030004;
+        public static final int startupnew=0x7f030003;
+        public static final int torrent_monitor=0x7f030004;
+        public static final int torrentlist=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f090000;

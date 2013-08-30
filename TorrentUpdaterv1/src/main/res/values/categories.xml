@@ -12,6 +12,8 @@
     </string>
     <string name="ebooks" >Ebooks
     </string>
+    <string name="applications" >Applications
+    </string>
     <string name="other" >Other
     </string>
 </resources>
